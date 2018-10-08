@@ -11,7 +11,7 @@ namespace Lab2
         static void Main(string[] args)
         {
             //Vars
-            Regex repeat = new Regex("^[yY]");
+            Regex repeat = new Regex("^[yY]"); //a regular expression for checking if the input for repeat is good.
             double length , width, hight;
             double area, perimeter, volume;
             
