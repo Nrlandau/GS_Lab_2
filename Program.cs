@@ -12,7 +12,7 @@ namespace Lab2
         {
             //Vars
             Regex repeat = new Regex("^[yY]"); //a regular expression for checking if the input for repeat is good.
-            double length , width, hight;
+            double length , width, height;
             double area, perimeter, volume;
             
             do{
@@ -22,11 +22,11 @@ namespace Lab2
             System.Console.WriteLine("Width:");
             width = double.Parse(System.Console.ReadLine());
             System.Console.WriteLine("Hight");
-            hight = double.Parse(System.Console.ReadLine());
+            height = double.Parse(System.Console.ReadLine());
             //Magic
             area = length * width;
             perimeter = 2.0 * ( length + width);
-            volume = length * width * hight;
+            volume = length * width * height;
             //Output
             System.Console.WriteLine("The area is {0} \n The perimeter is {1} The volume is {2}", area, perimeter, volume);
 
