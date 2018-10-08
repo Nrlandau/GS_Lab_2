@@ -10,6 +10,16 @@
                 "${workspaceFolder}/Lab2.csproj"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Run",
+            "command": "dotnet",
+            "type": "shell",
+            "args": [
+                "run",
+                "${workspaceFolder}"
+            ],
+            "problemMatcher": []
         }
     ]
 }
